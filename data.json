@@ -1,0 +1,182 @@
+[
+    {
+        "isbn": "9780300267662",
+        "title": "Why Architecture Matters",
+        "appendixPage": "15",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780300267662_ioehwu.jpg"
+    },
+    {
+        "isbn": "9783110914672",
+        "title": "Reallexikon der deutschen Literaturwissenschaft",
+        "appendixPage": "27",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148476/degruyter/9783110914672_gzq79n.jpg"
+    },
+    {
+        "isbn": "9783110914675",
+        "title": "The Death Penalty",
+        "appendixPage": "7",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9783110914675_ju5nt8.jpg"
+    },
+    {
+        "isbn": "9783110545982",
+        "title": "Qualitative Interviews",
+        "appendixPage": "33",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148476/degruyter/9783110545982_qxfykp.jpg"
+    },
+    {
+        "isbn": "9780520392304",
+        "title": "Equality within Our Lifetimes",
+        "appendixPage": "19",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780520392304_brtnjv.jpg"
+    },
+    {
+        "isbn": "9780520392314",
+        "title": "A General Theory of Crime",
+        "appendixPage": "21",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780520392314_cm8euy.jpg"
+    },
+    {
+        "isbn": "9780300268478",
+        "title": "The Great New York Fire of 1776",
+        "appendixPage": "64",
+        "cover":"https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780300268478_ii4cfv.jpg"
+    },
+	{
+		"isbn": "9780321856715",
+		"title": "Learning iOS Programming, 3rd Edition",
+		"appendixPage": "7",
+        "cover":"https://miro.medium.com/v2/resize:fit:1400/1*zBRkcBbsjWzcPjtcxqhb3Q.jpeg"
+	},
+	{
+		"isbn": "9781593275846",
+		"title": "Eloquent JavaScript, 2nd Edition",
+		"appendixPage": "8",
+        "cover":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9617d19293361.562d7f22ac57d.gif"
+	},
+	{
+		"isbn": "9780321714114",
+		"title": "Cocoa Programming for Mac OS X, 4th Edition",
+		"appendixPage": "12",
+        "cover":"https://www.oreilly.com/api/v2/epubs/9780763766580/files/images/cover.jpg"
+	},
+	{
+		"isbn": "9781449365035",
+		"title": "Learning Web Design, 4th Edition",
+		"appendixPage": "23",
+        "cover":"https://www.oreilly.com/api/v2/epubs/9781449365028/files/orm_front_cover.jpg"
+	},
+	{
+		"isbn": "9780321856715",
+		"title": "HTML and CSS: Design and Build Websites",
+		"appendixPage": "9",
+        "cover":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51mb6UvEDdL._AC_UF1000,1000_QL80_.jpg"
+	},
+	{
+		"isbn": "9781449342753",
+		"title": "Programming JavaScript Applications",
+		"appendixPage": "6",
+        "cover":"https://miro.medium.com/v2/resize:fit:762/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg"
+	},
+	{
+		"isbn": "9781118008188",
+		"title": "JavaScript and jQuery: Interactive Front-End Web Development",
+		"appendixPage": "11",
+        "cover":"https://cdn.dribbble.com/users/182457/screenshots/14597409/im_js-pillar_1600x1200_4x.png"
+	},
+	{
+		"isbn": "9780596805524",
+		"title": "JavaScript: The Good Parts",
+		"appendixPage": "17",
+        "cover":"https://www.oreilly.com/api/v2/epubs/9781491943816/files/assets/cover.png"
+	},
+	{
+		"isbn": "9780132350884",
+		"title": "Core Java, Volume I--Fundamentals, 10th Edition",
+		"appendixPage": "5",
+        "cover":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51FeXpSFXdL.jpg"
+	},
+	{
+		"isbn": "9781593275846",
+		"title": "Eloquent JavaScript: A Modern Introduction to Programming",
+		"appendixPage": "22",
+        "cover":"https://www.booksb2bportal.com/covers/31/9781683920908_L.jpg"
+	},
+	{
+		"isbn": "9780596007126",
+		"title": "Head First Design Patterns",
+		"appendixPage": "18",
+        "cover":"https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+	},
+	{
+		"isbn": "9780201835953",
+		"title": "The Pragmatic Programmer: From Journeyman to Master",
+		"appendixPage": "10",
+        "cover":"https://www.oreilly.com/api/v2/epubs/9780763766580/files/images/cover.jpg"
+	},
+	{
+		"isbn": "9780135957059",
+		"title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+		"appendixPage": "30",
+        "cover":"https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+	},
+	{
+		"isbn": "9780132350884",
+		"title": "The Art of Computer Programming, Volume 1: Fundamental Algorithms",
+		"appendixPage": "40",
+        "cover":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51mb6UvEDdL._AC_UF1000,1000_QL80_.jpg"
+	},
+	{
+		"isbn": "9780262531962",
+		"title": "Structure and Interpretation of Computer Programs",
+		"appendixPage": "12",
+        "cover":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51FeXpSFXdL.jpg"
+	},
+	{
+		"isbn": "9780201616224",
+		"title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+		"appendixPage": "24",
+        "cover":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51FeXpSFXdL.jpg"
+	},
+	{
+		"isbn": "9780201835953",
+		"title": "The Pragmatic Programmer: From Journeyman to Master",
+		"appendixPage": "10",
+        "cover":"https://miro.medium.com/v2/resize:fit:762/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg"
+	},
+	{
+		"isbn": "9780596007126",
+		"title": "Head First Design Patterns",
+		"appendixPage": "18",
+        "cover":"https://cdn.dribbble.com/users/182457/screenshots/14597409/im_js-pillar_1600x1200_4x.png"
+	},
+	{
+		"isbn": "9780135957059",
+		"title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+		"appendixPage": "30",
+        "cover":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9617d19293361.562d7f22ac57d.gif"
+	},
+	{
+		"isbn": "9780261103252",
+		"title": "The Hobbit, or There and Back Again",
+		"appendixPage": "11",
+        "cover":"https://www.oreilly.com/api/v2/epubs/9781449365028/files/orm_front_cover.jpg"
+	},
+	{
+		"isbn": "9780061120084",
+		"title": "To Kill a Mockingbird",
+		"appendixPage": "23",
+        "cover":"https://miro.medium.com/v2/resize:fit:762/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg"
+	},
+	{
+		"isbn": "9780199535569",
+		"title": "Pride and Prejudice",
+		"appendixPage": "17",
+        "cover":"https://www.booksb2bportal.com/covers/31/9781683920908_L.jpg"
+	},
+	{
+		"isbn": "9780596007126",
+		"title": "Learning Perl, 5th Edition",
+		"appendixPage": "27",
+        "cover":"https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+	}
+]
