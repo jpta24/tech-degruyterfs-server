@@ -22,19 +22,41 @@ router.get('/books/search/:searchText', (req, res, next) => {
 		});
 });
 
-router.get('/test', (req, res, next) => {
+router.get('/books/initial', (req, res, next) => {
+    const resp = {}
+	Book.find()
+		.sort({ isbn: 1 })
+		.limit(10)
+		.select('isbn')
+		.then((books) => {
+            resp.list = books
+            return Book.countDocuments()
+		})
+        .then((count) => {
+            resp.total = count
+			res.status(200).json(resp);
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({ message: 'Sorry internal error occurred' });
+		});
+});
 
-    Book.find()
-    .then(books=>{
-        let duplicates = [];
-        books.map(book=>book.isbn)
-        .forEach((item, index) => {
-          if (books.map(book=>book.isbn).indexOf(item, index + 1) !== -1 && duplicates.indexOf(item) === -1) {
-            duplicates.push(item);
-          }
-        })
-        res.json(duplicates);
-    })	
+router.get('/test', (req, res, next) => {
+	Book.find().then((books) => {
+		let duplicates = [];
+		books
+			.map((book) => book.isbn)
+			.forEach((item, index) => {
+				if (
+					books.map((book) => book.isbn).indexOf(item, index + 1) !== -1 &&
+					duplicates.indexOf(item) === -1
+				) {
+					duplicates.push(item);
+				}
+			});
+		res.json(duplicates);
+	});
 });
 
 module.exports = router;
