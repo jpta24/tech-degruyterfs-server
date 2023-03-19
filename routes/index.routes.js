@@ -2,26 +2,6 @@ const router = require('express').Router();
 
 const Book = require('../models/Book.model');
 
-router.get('/books/search/:searchText', (req, res, next) => {
-	const searchText = req.params.searchText;
-
-	Book.find({
-		$or: [
-			{ title: { $regex: searchText, $options: 'i' } },
-			{ isbn: { $regex: searchText, $options: 'i' } },
-		],
-	})
-		.sort({ title: 'asc' })
-		.select('title isbn')
-		.then((books) => {
-			res.status(200).json(books);
-		})
-		.catch((err) => {
-			console.log(err);
-			res.status(500).json({ message: 'Sorry internal error occurred' });
-		});
-});
-
 router.get('/books/initial', (req, res, next) => {
     const resp = {}
 	Book.find()
@@ -35,6 +15,39 @@ router.get('/books/initial', (req, res, next) => {
         .then((count) => {
             resp.total = count
 			res.status(200).json(resp);
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({ message: 'Sorry internal error occurred' });
+		});
+});
+
+router.get('/book/:bookID', (req, res, next) => {
+	const bookID = req.params.bookID;
+
+	Book.findById(bookID)
+		.then((book) => {
+			res.status(200).json(book);
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({ message: 'Sorry internal error occurred' });
+		});
+});
+
+router.get('/books/search/:searchText', (req, res, next) => {
+	const searchText = req.params.searchText;
+
+	Book.find({
+		$or: [
+			{ title: { $regex: searchText, $options: 'i' } },
+			{ isbn: { $regex: searchText, $options: 'i' } },
+		],
+	})
+		.sort({ title: 'asc' })
+		.select('title isbn')
+		.then((books) => {
+			res.status(200).json(books);
 		})
 		.catch((err) => {
 			console.log(err);
