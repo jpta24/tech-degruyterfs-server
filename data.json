@@ -178,5 +178,101 @@
 		"title": "Learning Perl, 5th Edition",
 		"appendixPage": "27",
 		"cover": "https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
-	}
+	},
+	{
+		"isbn": "9780691178370",
+		"title": "The New Ecology",
+		"appendixPage": "27",
+		"cover": "https://www.oreilly.com/api/v2/epubs/9781449365028/files/orm_front_cover.jpg"
+		},
+		{
+		"isbn": "9780226230849",
+		"title": "The Body Multiple",
+		"appendixPage": "11",
+		"cover": "https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780300267662_ioehwu.jpg"
+		},
+		{
+		"isbn": "9780807826713",
+		"title": "Transforming Women's Work",
+		"appendixPage": "42",
+		"cover": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51mb6UvEDdL._AC_UF1000,1000_QL80_.jpg"
+		},
+		{
+		"isbn": "9780804740142",
+		"title": "Subjects of Desire",
+		"appendixPage": "18",
+		"cover": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9617d19293361.562d7f22ac57d.gif"
+		},
+		{
+		"isbn": "9780199391493",
+		"title": "Waste Away",
+		"appendixPage": "9",
+		"cover": "https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+		},
+		{
+		"isbn": "9780812215755",
+		"title": "African American Business Leaders",
+		"appendixPage": "23",
+		"cover": "https://cdn.dribbble.com/users/182457/screenshots/14597409/im_js-pillar_1600x1200_4x.png"
+		},
+		{
+		"isbn": "9780674012684",
+		"title": "Framing the Early Middle Ages",
+		"appendixPage": "31",
+		"cover": "https://www.oreilly.com/api/v2/epubs/9781449365028/files/orm_front_cover.jpg"
+		},
+		{
+		"isbn": "9780691149486",
+		"title": "Rebooting Democracy",
+		"appendixPage": "38",
+		"cover": "https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780520392304_brtnjv.jpg"
+		},
+		{
+		"isbn": "9780742555563",
+		"title": "Nigerian Pentecostalism",
+		"appendixPage": "14",
+		"cover": "https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+		},
+		{
+		"isbn": "9780819567840",
+		"title": "Real Phonies",
+		"appendixPage": "12",
+		"cover": "https://miro.medium.com/v2/resize:fit:762/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg"
+		},
+		{
+		"isbn": "9780801462481",
+		"title": "The Technological Indian",
+		"appendixPage": "32",
+		"cover": "https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9783110914675_ju5nt8.jpg"
+		},
+		{
+		"isbn": "9781421411125",
+		"title": "American Foreclosure",
+		"appendixPage": "17",
+		"cover": "https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148475/degruyter/9780520392304_brtnjv.jpg"
+		},
+		{
+		"isbn": "9780674006607",
+		"title": "Making News",
+		"appendixPage": "25",
+		"cover": "https://images-na.ssl-images-amazon.com/images/I/51fRKyqPWDL.jpg"
+		},
+		{
+		"isbn": "9780292722392",
+		"title": "Slavery in Indian Country",
+		"appendixPage": "29",
+		"cover": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51FeXpSFXdL.jpg"
+		},
+		{
+		"isbn": "9780674064454",
+		"title": "Big Mind",
+		"appendixPage": "20",
+		"cover": "https://res.cloudinary.com/dwtnqtdcs/image/upload/v1679148476/degruyter/9783110914672_gzq79n.jpg"
+		},
+		{
+		"isbn": "9780253216922",
+		"title": "African Americans in the U.S. Economy",
+		"appendixPage": "37",
+		"cover": "https://www.oreilly.com/api/v2/epubs/9780763766580/files/images/cover.jpg"
+		}
 ]
